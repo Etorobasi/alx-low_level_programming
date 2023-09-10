@@ -2,6 +2,8 @@
 
 /**
  * main - This is the main function
+ *
+ * return - The return value of the main function is 0
  */
 int main(void)
 {
