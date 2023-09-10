@@ -2,12 +2,13 @@
 
 /**
  * main - This is the main function
- *
- * return - The program returns 0 when run successfully
  */
 int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzle\n");
+	puts("\"Programming is like building a multilingual puzzle");
 
-	return (0);	
+	/**
+	 * return - The program returns 0 when run successfully
+	 */
+	return (0);
 }
