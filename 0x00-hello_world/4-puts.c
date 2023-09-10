@@ -2,17 +2,12 @@
 
 /**
  * main - This is the main function
+ *
+ * return - The program returns 0 when run successfully
  */
 int main(void)
 {
-	char puzzle[50];
+	puts("\"Programming is like building a multilingual puzzle\n");
 
-	/**
-	 * puzzle - prints a string of characters using puts
-	 */
-	puzzle[50] = "/"Programming is like building a multilingual puzzle\0";
-
-	puts(puzzle);
-
-	return (0);
+	return (0);	
 }
