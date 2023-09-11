@@ -16,10 +16,10 @@ int main(void)
 		if (alph != e && alph != q)
 		{
 			putchar(alph);
-
-			alph++;
 		}
-		putchar('\n');
+		alph++;
 	}
+	putchar('\n');
+
 	return (0);
 }
