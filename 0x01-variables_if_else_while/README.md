@@ -1,3 +1,4 @@
 0-positive_or_negative | is a c program that displays random numbers and tell if they are positive or negative
 1-last_digit | is a c program that displays the last digit of random numbers
 2-print_alphabet.c | prints all the alphabets in lowercase
+3-print_alphabets.c | prints all the alphabets in lowercase and then in uppercase
