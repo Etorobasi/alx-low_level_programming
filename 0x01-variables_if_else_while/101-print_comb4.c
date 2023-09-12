@@ -5,7 +5,7 @@
  *
  * Return: The return value for this program is 0
  */
-int main (void)
+int main(void)
 {
 	int num;
 	int comb;
