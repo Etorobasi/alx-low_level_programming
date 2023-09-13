@@ -1,5 +1,8 @@
 #include "main.h"
 
+/**
+ * print_alphabet_x10 - prints the alphabets 10 times
+ */
 void print_alphabet_x10(void)
 {
 	char j;
@@ -16,5 +19,4 @@ void print_alphabet_x10(void)
 		_putchar('\n');
 		k++;
 	}
-	
 }
