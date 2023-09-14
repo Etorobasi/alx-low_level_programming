@@ -3,27 +3,23 @@
 #include <stdio.h>
 
 /**
- * main - This is the main function
+ * positive_or_negative - This is the main function
+ * @i: character to be checked
  *
  * Return: The program will return a value of 0 if successful
  */
-int positive_or_negative(void)
+void positive_or_negative(int i);
 {
-	int n;
-
-	n = rand() - RAND_MAX / 2;
-
-	if (n > 0)
+	if (i > 0)
 	{
-		printf("%d is positive\n", n);
+		printf("%d is positive\n", i);
 	}
-	else if (n == 0)
+	else if (i == 0)
 	{
-		printf("%d is zero\n", n);
+		printf("%d is zero\n", i);
 	}
-	else if (n < 0)
+	else if (i < 0)
 	{
-		printf("%d is negative\n", n);
+		printf("%d is negative\n", i);
 	}
-	return (0);
 }
