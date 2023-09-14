@@ -8,7 +8,7 @@
  *
  * Return: The program will return a value of 0 if successful
  */
-void positive_or_negative(int i);
+void positive_or_negative(int i)
 {
 	if (i > 0)
 	{
