@@ -14,6 +14,9 @@
  * print_most_numbers - prints most numbers excluding 2 and 4
  * more_numbers - prints 0-14 in 10 lines
  * print_line - draws a straight line in the terminal 
+ * @n: the number of lines to be printed
+ * print_diagonal - draws a diagonal on the terminal
+ * @n: the number of times the character \ should be printed
  *
  * Return: returns a value of 1 is checked successfully, otherwise 0
  */
@@ -25,4 +28,5 @@ void print_numbers(void);
 void print_most_numbers(void);
 void more_numbers(void);
 void print_line(int n);
+void print_diagonal(int n);
 #endif
