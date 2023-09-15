@@ -11,6 +11,7 @@
  * @a: integer 1
  * @b: integer 2
  * print_numbers - print numbers 0-9
+ * print_most_numbers - prints most numbers excluding 2 and 4
  *
  * Return: returns a value of 1 is checked successfully, otherwise 0
  */
@@ -19,4 +20,5 @@ int _isupper(int c);
 int _isdigit(int c);
 int mul(int a, int b);
 void print_numbers(void);
+void print_most_numbers(void);
 #endif
