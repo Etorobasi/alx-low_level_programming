@@ -13,6 +13,7 @@
  * print_numbers - print numbers 0-9
  * print_most_numbers - prints most numbers excluding 2 and 4
  * more_numbers - prints 0-14 in 10 lines
+ * print_line - draws a straight line in the terminal 
  *
  * Return: returns a value of 1 is checked successfully, otherwise 0
  */
@@ -23,4 +24,5 @@ int mul(int a, int b);
 void print_numbers(void);
 void print_most_numbers(void);
 void more_numbers(void);
+void print_line(int n);
 #endif
