@@ -23,6 +23,6 @@ void print_diagonal(int n)
 		b++;
 		n--;
 	}
-	if (n < 0)
+	if (n <= 0)
 		_putchar('\n');
 }
