@@ -17,6 +17,8 @@
  * @n: the number of lines to be printed
  * print_diagonal - draws a diagonal on the terminal
  * @n: the number of times the character \ should be printed
+ * print_square - prints a square followed by a newline
+ * @size: size of square
  *
  * Return: returns a value of 1 is checked successfully, otherwise 0
  */
@@ -29,4 +31,5 @@ void print_most_numbers(void);
 void more_numbers(void);
 void print_line(int n);
 void print_diagonal(int n);
+void print_square(int size);
 #endif
