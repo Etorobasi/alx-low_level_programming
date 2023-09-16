@@ -19,6 +19,10 @@
  * @n: the number of times the character \ should be printed
  * print_square - prints a square followed by a newline
  * @size: size of square
+ * print_triangle - prints triangle on the terminal display
+ * @size - size of triangle
+ * print_number - prints number
+ * @n: number to be printed
  *
  * Return: returns a value of 1 is checked successfully, otherwise 0
  */
@@ -32,4 +36,6 @@ void more_numbers(void);
 void print_line(int n);
 void print_diagonal(int n);
 void print_square(int size);
+void print_triangle(int size);
+void print_number(int n);
 #endif
