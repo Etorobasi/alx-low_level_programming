@@ -4,7 +4,7 @@
 /**
  * main - prints the name of the program
  * @argc: number arguments
- * @argv[]: an array
+ * @argv: an array
  *
  * Return: returns an integer value
  */
