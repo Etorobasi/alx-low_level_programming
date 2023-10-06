@@ -30,11 +30,9 @@ int **alloc_grid(int width, int height)
 			if (gridPtr[i] == NULL)
 			{
 				for (i--; i >= 0; i--)
-				{
-					free(gridPtr[i]);
-					free(gridPtr);
-					return (NULL);
-				}
+				free(gridPtr[i]);
+				free(gridPtr);
+				return (NULL);
 			}
 		}
 	}
