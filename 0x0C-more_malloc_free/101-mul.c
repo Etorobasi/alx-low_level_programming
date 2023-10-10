@@ -17,9 +17,7 @@ int _isdig(char *c)
 	while (c[i])
 	{
 		if (c[i] < '0' || c[i] > '9')
-		{
 			return (0);
-		}
 		i++;
 	}
 	return (1);
@@ -74,7 +72,7 @@ int main(int argc, char *argv[])
 		return (1);
 	for (i = 0; i <= len1 + len2; i++)
 		result[i] = 0;
-	for (len1 = _strlen(s1) - 1; len1 >= 0; len1--)
+	for (len1 = len1 - 1; len1 >= 0; len1--)
 	{
 		dig1 = s1[len1] - '0';
 		carry = 0;
