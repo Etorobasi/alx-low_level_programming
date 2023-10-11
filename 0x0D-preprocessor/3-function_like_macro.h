@@ -1,4 +1,4 @@
 #ifndef MACROLIKE_H
 #define MACROLIKE_H
-#define ABS(x) (x < 0 ? -x : x)
+#define ABS(x) ((x) < 0 ? -(1) * (x) : (x))
 #endif
