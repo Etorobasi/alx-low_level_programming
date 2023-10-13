@@ -11,7 +11,7 @@
  */
 void print_all(const char * const format, ...)
 {
-	int i, check;
+	int i, check;/* ... */
 	char *str;
 	va_list spec;
 
