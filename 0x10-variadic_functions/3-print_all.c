@@ -6,6 +6,8 @@
 /**
  * print_all - prints anything
  * @format: format to be printed
+ *
+ * Return: void
  */
 void print_all(const char * const format, ...)
 {
@@ -41,7 +43,7 @@ void print_all(const char * const format, ...)
 				check = 1;
 				break;
 		}
-		if (format[i] != '\0' && check == 0)
+		if (format[i + 1] != '\0' && check == 0)
 			printf(", ");
 		i++;
 	}
