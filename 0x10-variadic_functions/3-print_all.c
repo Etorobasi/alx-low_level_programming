@@ -11,11 +11,11 @@
  */
 void print_all(const char * const format, ...)
 {
-	int i, check;/* ... */
+	int i, check;
 	char *str;
 	va_list spec;
 
-	va_start(spec, format);/* ... */
+	va_start(spec, format);
 	i = 0;
 	while (format != NULL && format[i] != '\0')
 	{
@@ -38,6 +38,7 @@ void print_all(const char * const format, ...)
 				if (str == NULL)
 					str = "(nil)";
 				printf("%s", str);
+				check = 0;
 				break;
 			default:
 				check = 1;
@@ -48,5 +49,5 @@ void print_all(const char * const format, ...)
 		i++;
 	}
 	printf("\n");
-	va_end(spec);/* ... */
+	va_end(spec);
 }
