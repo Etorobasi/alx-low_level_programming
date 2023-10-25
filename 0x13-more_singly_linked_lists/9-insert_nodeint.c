@@ -5,6 +5,7 @@
  * @head: pointer to a pointer to the first node in the linked list
  * @idx:  the index of the list where the new nodeis to be added,
  * starting at 0
+ * @n: data to be stored in new node
  *
  * Return: the address of the new node, or NULL if it failed
  */
@@ -34,7 +35,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 			return (NULL);
 		temp = temp->next;
 	}
-	hold = temp->next; 
+	hold = temp->next;
 	temp->next = newNode;
 	newNode->next = hold;
 	return (newNode);
