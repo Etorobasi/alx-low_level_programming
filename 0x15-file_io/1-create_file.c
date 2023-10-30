@@ -15,8 +15,8 @@ int create_file(const char *filename, char *text_content)
 		return (-1);
 	if (text_content != NULL)
 	{
-		for (i = 0; text_content[i]; i++)
-			;
+		for (i = 0; text_content[i];)
+			i++;
 	}
 	else
 		i = 0;
@@ -25,5 +25,5 @@ int create_file(const char *filename, char *text_content)
 	if (op == -1)
 		return (-1);
 	close(op);
-	return (i);
+	return (1);
 }
