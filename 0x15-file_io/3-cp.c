@@ -48,7 +48,7 @@ int main(int argc, char *argv[])
 		if (nchar == -1)
 			error(-1, 0, argv);
 		nwr = write(file_to, buf, nchar);
-		if (nwr == -1)
+			if (nwr == -1)
 			error(0, -1, argv);
 	}
 	err_close = close(file_from);
