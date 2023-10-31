@@ -10,12 +10,12 @@ void error(int file_from, int file_to, char *argv[])
 {
 	if (file_from == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[2]);
+		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
 		exit(98);
 	}
 	if (file_to == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[3]);
+		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
 		exit(99);
 	}
 }
@@ -52,6 +52,7 @@ int main(int argc, char *argv[])
 			if (nwr == -1)
 			error(0, -1, argv);
 	}
+
 	err_close = close(file_from);
 	if (err_close == -1)
 	{
